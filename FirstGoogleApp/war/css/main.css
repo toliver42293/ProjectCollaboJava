@@ -1,0 +1,201 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar-logo{
+    height: 50px;
+}
+
+.signup-form{
+	max-width: 400px;
+	min-width: 300px;
+	margin: 50px auto;
+	border: thin solid #ccc;
+	background: #FFFFFF;
+	border-radius: 6px;
+	padding: 10px;
+	text-align: center;
+}
+
+.signup-form .form-group{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+.btn-custom{
+	color: #FFFFFF;
+	background-color: #81C2FC;
+	border-color: #ccc;
+}
+
+.btn-custom:HOVER {
+	color: #FFFFFF;
+	background-color: #2E97FF;
+	border-color: #ccc;
+}
+
+#wrapper {
+  padding-left: 200px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  top: 50px;
+  margin-left: -250px;
+  left: 250px;
+  width: 200px;
+  background: #81C2FC;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  border-left-width: 5px;
+  border-left-color: #FB8717;
+  border-left-style: solid;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.inset {
+  padding: 20px;
+}
+
+@media (max-width:767px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: block;
+}
+
+.inset {
+  padding: 15px;
+}
+
+/* This is code added to support auto-resizing youtube videos from https://gist.github.com/jgarber/2302238 */
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 940px;
+  max-height: 529px;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
